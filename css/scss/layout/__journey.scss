@@ -36,8 +36,8 @@
 }
 
 .video {
-  display: flex;
-  justify-content: space-between;
+  /*  display: flex;
+  justify-content: space-between; */
   &__item {
   }
 }
@@ -62,14 +62,16 @@
 .journey {
   &__img-wrapper {
     position: relative;
+    width: 100%;
   }
   &__wrapper {
-    width: 1440px;
+    max-width: 1415px;
   }
   &__arrow {
     position: absolute;
     left: 45%;
     top: 50%;
+    width: 20%;
     &-active {
       display: none;
     }
