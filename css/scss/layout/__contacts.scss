@@ -1,6 +1,6 @@
 .contacts {
   &__name {
-    font-family: "Forum";
+    font-family: 'Forum';
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
@@ -26,7 +26,7 @@
   }
   &__name {
     color: black;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
@@ -46,6 +46,11 @@
   }
   &__img {
     &-wrapper {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      padding-top: 56, 25%;
+
       max-width: 960px;
     }
     width: 100%;
@@ -90,6 +95,7 @@
     margin-right: 40px;
   }
 }
+
 @media (max-width: 1024px) {
   .container {
     margin: 0 20px;

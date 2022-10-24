@@ -1,14 +1,13 @@
 const smoothScroll = () => {
-  const links = document.querySelectorAll("a.header__link, a.footer__link");
+  const links = document.querySelectorAll('a.header__link, a.footer__link');
 
   links.forEach((element) =>
-    element.addEventListener("click", (e) => {
+    element.addEventListener('click', (e) => {
       e.preventDefault();
-      const id = element.getAttribute("href");
-      console.log(id);
+      const id = element.getAttribute('href');
       document.querySelector(id).scrollIntoView({
-        behavior: "smooth",
-        block: "start",
+        behavior: 'smooth',
+        block: 'start',
       });
     })
   );

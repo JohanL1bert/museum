@@ -723,7 +723,7 @@ h1 {
 
 .journey__header {
   color: #9D8665;
-  font-family: "Forum";
+  font-family: 'Forum';
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
@@ -733,7 +733,7 @@ h1 {
 }
 
 .journey__description {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 22px;
   font-style: normal;
   font-weight: 300;
@@ -754,8 +754,8 @@ h1 {
 }
 
 .video {
-  display: flex;
-  justify-content: space-between;
+  /*  display: flex;
+  justify-content: space-between; */
 }
 
 .slider__wrapper {
@@ -772,14 +772,20 @@ h1 {
   height: 15px;
 }
 
+.journey__img-wrapper {
+  position: relative;
+  width: 100%;
+}
+
 .journey__wrapper {
-  width: 1440px;
+  max-width: 1415px;
 }
 
 .journey__arrow {
   position: absolute;
   left: 45%;
-  top: 3500px;
+  top: 50%;
+  width: 20%;
 }
 
 .journey__arrow-active {
@@ -1656,7 +1662,7 @@ input::-webkit-inner-spin-button {
 }
 
 .contacts__name {
-  font-family: "Forum";
+  font-family: 'Forum';
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
@@ -1687,7 +1693,7 @@ input::-webkit-inner-spin-button {
 
 .frame__name {
   color: black;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -1714,6 +1720,10 @@ input::-webkit-inner-spin-button {
 }
 
 .frame__img-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56, 25%;
   max-width: 960px;
 }
 
